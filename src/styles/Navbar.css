@@ -1,0 +1,26 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #207CE8;
+  color: white;
+  list-style-type: none;
+  padding: 4px 0;
+  margin-bottom: 5px;
+}
+
+.navbar-item {
+  font-size: large;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.navbar-item:hover {
+  background-color: white;
+  color: #207CE8;
+  cursor: pointer;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}

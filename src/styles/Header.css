@@ -1,0 +1,45 @@
+.header-inner-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-wrapper, .button-wrapper {
+  width: 50%;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.start-planning-here-btn {
+  font-size: x-large;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #207CE8;
+  color: white;
+  border: 1px solid gold;
+  box-shadow: 2px 2px 2px silver;
+  transition: background-color 300ms linear;
+  transition: opacity 200ms linear;
+}
+
+.start-planning-here-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
